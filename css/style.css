@@ -1,0 +1,86 @@
+#index {
+    background-image: url(../image/index.png);
+    background-position: bottom center;
+}
+
+.navbar a {
+    margin: 50px;
+}
+
+.entre { 
+    background-color: rgb(151, 80, 0);
+}
+
+#burger {
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 12px;
+    }
+
+}
+
+.menu {
+    background-color: white;
+}
+
+
+#dejeuner {
+    background-image: url(../image/bgdejeuner.png);
+}
+
+.area {
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: -7px;
+    font-weight: 600;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+
+
+.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+
+img.top.img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.burgers:hover .bottom{    position:absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;}
