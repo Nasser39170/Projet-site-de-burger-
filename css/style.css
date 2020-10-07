@@ -1,3 +1,4 @@
+
 #index {
     background-image: url(../image/index.png);
     background-position: bottom center;
@@ -41,20 +42,13 @@
 }
 
 img.top.img-fluid {
-    position: absolute;
-    top: 0;
-    left: 0;
+margin-top:-50px;
 }
 
-.burgers:hover .bottom{    position:absolute;
-    left:0;
+.burgers:hover .bottom{    
     opacity: 1;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;}
 
-    img.top {
-        position: absolute;
-        top: 0;
-        left: 0;
