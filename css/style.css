@@ -16,8 +16,13 @@
     background-color: rgb(151, 80, 0);
 }
 
+.enterr {
+    background-color: rgb(151, 80, 0);
+}
+
 #burger {
     background-color: black;
+    background-position: bottom center;
 }
 
 @media (max-width: 600px) {
@@ -29,11 +34,16 @@
 
 .menu {
     background-color: white;
+    border-left: 7px solid red;
+    border-right: 7px solid red;
+    border-top: 7px solid red;
+    border-bottom: 7px solid red;
 }
 
 
 #dejeuner {
     background-image: url(../image/bgdejeuner.png);
+    background-position: bottom center;
 }
 
 .bottom{
@@ -51,4 +61,3 @@ margin-top:-50px;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;}
-
